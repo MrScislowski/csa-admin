@@ -1,0 +1,8 @@
+[ ] Get VSCode to be able to do autocomplete
+[ ] Return objects from all of my functions so that I can log
+[ ] See if it's possible to add the container-bound script to my project
+(it's not possible! I wonder if I should have it be a separate project, or 
+if I should make it part of this library (maybe in a sub-directory; such
+that you just have to define a couple of file-names in any given 
+container-bound script))
+[ ] Add logging functions to the container bound script
