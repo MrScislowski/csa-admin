@@ -1,4 +1,4 @@
-[ ] Get VSCode to be able to do autocomplete
+[x] Get VSCode to be able to do autocomplete
 [ ] Return objects from all of my functions so that I can log
 [ ] See if it's possible to add the container-bound script to my project
 (it's not possible! I wonder if I should have it be a separate project, or 
