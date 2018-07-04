@@ -1,3 +1,15 @@
+
+function discernFormOrder() {
+  var formId = '1WYe7Dxq_Su_msmJBuBYb9I2UVsyUswaOAni_CBduURk';
+  var formResponses = FormApp.openById(formId).getResponses();
+  for (var i=0; i<formResponses.length; i++) {
+    var formItems = formResponses[i].getItemResponses();
+    for (var r=0; r<formItems.length; r++) {
+      Logger.log(formItems[r].getItem().getTitle());
+    }
+  }
+}
+
 function addFixedDate() {
   var formId = "1md_O9gqXvimfCu6Ti3sSlxi4Q2RHipUTrlZE6KdtBnI";
   var realDate = new Date('2018-06-28T12:00:00');
